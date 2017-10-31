@@ -6,7 +6,7 @@ if($_POST['functionname'] == 'fetchQues')
 
 	$keyword = $_POST['keyword'];
 	$questions = $quesNans->getQuestion($keyword);
-	print $questions;
+	print $questions; /* Return Fetched Questions */
 
 }
 
