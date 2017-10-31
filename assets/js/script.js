@@ -16,8 +16,6 @@ $(document).ready(function(){
 					obj= JSON.parse(result);
 					if(obj['code'] == 1)
 					{
-						//console.log(obj);
-						//alert(obj['code']);
 						var keys = Object.keys(obj);
 						$('.questions').html(''); /* For Removing the Questions */
 
