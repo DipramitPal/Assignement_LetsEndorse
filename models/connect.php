@@ -14,7 +14,7 @@ try
 catch(PDOException $e)
 {
     echo $e->getMessage();
-    die();
+    die(); /* TO Terminate the Code */
 }
 
 require_once "QnA.php";
