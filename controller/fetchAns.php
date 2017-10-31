@@ -6,7 +6,7 @@ if($_POST['functionname'] == 'fetchAns')
 
 	$qid = $_POST['qid'];
 	$answers = $quesNans->getAnswer($qid);
-	print $answers;
+	print $answers; /* Answers are Returned */
 
 }
 
