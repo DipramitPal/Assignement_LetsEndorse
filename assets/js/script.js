@@ -19,7 +19,7 @@ $(document).ready(function(){
 						//console.log(obj);
 						//alert(obj['code']);
 						var keys = Object.keys(obj);
-						$('.questions').html('');
+						$('.questions').html(''); /* For Removing the Questions */
 
 						for(i=0; i<keys.length-1;i++)
 						{
